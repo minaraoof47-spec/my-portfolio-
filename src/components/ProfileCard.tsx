@@ -6,7 +6,7 @@ export default function ProfileCard({ delay = 0 }: { delay?: number }) {
     <BentoCard className="h-full relative p-2 min-h-[380px] md:min-h-[500px]" delay={delay}>
       <div className="w-full h-full relative rounded-2xl overflow-hidden group bg-background">
         <Image
-          src="/profile.jpg"
+         src="/images/profile.jpg"
           alt="Mina Raouf Profile"
           fill
           sizes="(max-width: 768px) 100vw, 40vw"
